@@ -1,16 +1,91 @@
 import java.util.Scanner;
 import java.math.*;
+
 public class App {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System. in);
+        
 
-        System.out.print("¿De que numero quieres la tabla?");
-        int numweo = sc.nextInt(;
+        
 
-        System.out.println("\nTabala del " + numero + ":");
-        for (int i = 1)
-        )
+        /* 
+        int opcion;
+
+        do{
+            System.out.println("\n===MENU===");
+            System.out.println("1. Saludar");
+            System.out.println("2. Despedirse");
+            System.out.println("3. Ganaste 1M de oportunidades");
+            System.out.println("0. Salir");
+            System.out.print("Opción: ");
+            opcion = sc.nextInt();
+
+            if (opcion == 1){
+                System.out.println("Hola!");
+            }
+            else if (opcion == 2){
+                System.out.println("Hasta luego!");
+            }
+            else if (opcion == 3){
+                System.out.println("Felicidades! Ganaste 1M de oportunidades");
+            }
+        } while (opcion != 0);
+
+        System.out.println("Programa terminado.");
+        sc.close();
+
+
+        /* 
+        int edad = -1;
+
+        while (edad < 0 || edad > 120){
+            System.out.print("Ingrese su edad (0-120): ");
+            edad = sc.nextInt();
+            if (edad < 0 || edad > 120){
+                System.out.println("Edad invalida, intente de nuevo.");
+            }
+        }
+
+        System.out.println("edad registrada: "+ edad);
+        sc.close();
+
+        /* 
+        int contador = 1;
+
+        while (contador <= 5){
+            System.out.println("Vuelta numero" + contador);
+            contador++;
+        }
+
+
+        /*  
+        for (int i = 1; i <= 10; i++){
+            if (i % 2 == 0) continue;
+            System.out.println(i);
+        }
+
+
+
+
+
+        /* 
+        for (int i = 1; i <= 10; i++){
+            if (i == 6) break;
+            System .out.println(i);
+        }
+
+
+
+
+
+        /* 
+    for ( int fila = 1; fila <= 4; fila++){
+        for (int col = 1; col <= 4; col++){
+            System.out.print("* ");
+        }
+        System.out.println();
     }
+    
 
 
        /* 
@@ -18,7 +93,7 @@ public class App {
             if (i % 2 == 0){
                 System.out.println(i);
             } 
-    }
+     }
         /* 
         Scanner sc = new Scanner(System.in);
         System.out.println("Número 1: ");
